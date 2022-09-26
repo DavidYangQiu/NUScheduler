@@ -11,7 +11,6 @@ const App = () => {
   return (
     <div>
       <h1>Sample React code</h1>
-      
       <p>Today is {day}, {date}.</p>
     </div>
   );
