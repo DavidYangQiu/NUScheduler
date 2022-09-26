@@ -2,6 +2,7 @@ import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// Display current time
 const App = () => {
   const today = new Date();
   const day = today.toLocaleString([], {weekday: 'long'});
